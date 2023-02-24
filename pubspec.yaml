@@ -12,7 +12,9 @@ environment:
 dependencies:
   auto_size_text: ^2.1.0
   cached_network_image: ^2.5.1
-  fluttertoast: any
+  fluttertoast:
+    git:
+      url: 'https://github.com/cdoky/FlutterToast.git'
 
   flutter:
     sdk: flutter
